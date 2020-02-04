@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="柠檬前程贷" parallel="false">
+	<test name="用户模块">
+		<classes>
+			<class name="com.luosi.cases.RegisterCase"></class>
+			<class name="com.luosi.cases.LoginCase"></class>
+			<class name="com.luosi.cases.RechargeCase"></class>
+		</classes>
+	</test>
+</suite>

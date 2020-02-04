@@ -1,0 +1,83 @@
+2020-01-28 21:15:15 method: com.luosi.cases.LoginCase.init(LoginCase.java:24) - [ INFO ]----*******************套件初始化********************
+2020-01-28 21:15:16 method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) - [ INFO ]----HV000001: Hibernate Validator 5.2.4.Final
+2020-01-28 21:15:16 method: com.luosi.cases.RegisterCase.testRegister(RegisterCase.java:19) - [ INFO ]----*******************注册测试********************
+2020-01-28 21:15:17 method: com.luosi.cases.RegisterCase.testRegister(RegisterCase.java:19) - [ INFO ]----*******************注册测试********************
+2020-01-28 21:15:17 method: com.luosi.cases.RegisterCase.testRegister(RegisterCase.java:19) - [ INFO ]----*******************注册测试********************
+2020-01-28 21:15:17 method: com.luosi.cases.RegisterCase.testRegister(RegisterCase.java:19) - [ INFO ]----*******************注册测试********************
+2020-01-28 21:15:17 method: com.luosi.cases.RegisterCase.testRegister(RegisterCase.java:19) - [ INFO ]----*******************注册测试********************
+2020-01-28 21:15:18 method: com.luosi.cases.RegisterCase.testRegister(RegisterCase.java:19) - [ INFO ]----*******************注册测试********************
+2020-01-28 21:15:18 method: com.luosi.cases.LoginCase.testLogin(LoginCase.java:35) - [ INFO ]----*******************登录测试********************
+2020-01-28 21:15:18 method: com.luosi.cases.LoginCase.testLogin(LoginCase.java:35) - [ INFO ]----*******************登录测试********************
+2020-01-28 21:15:18 method: com.luosi.cases.LoginCase.testLogin(LoginCase.java:35) - [ INFO ]----*******************登录测试********************
+2020-01-28 21:15:18 method: com.luosi.cases.LoginCase.testLogin(LoginCase.java:35) - [ INFO ]----*******************登录测试********************
+2020-01-28 21:15:19 method: com.luosi.cases.LoginCase.testLogin(LoginCase.java:35) - [ INFO ]----*******************登录测试********************
+2020-01-28 21:25:15 method: com.luosi.cases.LoginCase.init(LoginCase.java:24) - [ INFO ]----*******************套件初始化********************
+2020-01-28 21:25:15 method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) - [ INFO ]----HV000001: Hibernate Validator 5.2.4.Final
+2020-01-28 21:25:16 method: com.luosi.cases.RegisterCase.testRegister(RegisterCase.java:19) - [ INFO ]----*******************注册测试********************
+2020-01-28 21:25:16 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:16 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:16 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:16 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":1,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:16 method: com.luosi.cases.RegisterCase.testRegister(RegisterCase.java:19) - [ INFO ]----*******************注册测试********************
+2020-01-28 21:25:16 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:16 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:16 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:16 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:16 method: com.luosi.cases.RegisterCase.testRegister(RegisterCase.java:19) - [ INFO ]----*******************注册测试********************
+2020-01-28 21:25:16 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:16 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:16 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:16 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:16 method: com.luosi.cases.RegisterCase.testRegister(RegisterCase.java:19) - [ INFO ]----*******************注册测试********************
+2020-01-28 21:25:16 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:16 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:16 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:16 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:16 method: com.luosi.cases.RegisterCase.testRegister(RegisterCase.java:19) - [ INFO ]----*******************注册测试********************
+2020-01-28 21:25:17 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:17 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:17 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:17 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":0,"msg":"OK","data":{"id":910701,"reg_name":"小柠檬","mobile_phone":"13800852493"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:18 method: com.luosi.cases.RegisterCase.testRegister(RegisterCase.java:19) - [ INFO ]----*******************注册测试********************
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:18 method: com.luosi.cases.LoginCase.testLogin(LoginCase.java:35) - [ INFO ]----*******************登录测试********************
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":2,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:18 method: com.luosi.cases.LoginCase.testLogin(LoginCase.java:35) - [ INFO ]----*******************登录测试********************
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":2,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:18 method: com.luosi.cases.LoginCase.testLogin(LoginCase.java:35) - [ INFO ]----*******************登录测试********************
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:18 method: com.luosi.cases.LoginCase.testLogin(LoginCase.java:35) - [ INFO ]----*******************登录测试********************
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:18 method: com.luosi.cases.LoginCase.testLogin(LoginCase.java:35) - [ INFO ]----*******************登录测试********************
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":0,"msg":"OK","data":{"id":910701,"leave_amount":0.0,"mobile_phone":"13800852493","reg_name":"小柠檬","reg_time":"2020-01-28 21:25:17.0","type":1,"token_info":{"token_type":"Bearer","expires_in":"2020-01-28 21:30:18","token":"eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjkxMDcwMSwiZXhwIjoxNTgwMjE4MjE4fQ.H5OB6DK2HgpvWNCwib0qORRQk70ze2AajcwRfZT0RhTjXRD2mFD7bvXXirolYUGwzO5w3mP59_S4yucLdtgYtQ"}},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:18 method: com.luosi.cases.RechargeCase.testRecharge(RechargeCase.java:20) - [ INFO ]----*******************充值测试********************
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":1007,"msg":"无权限访问，请检查参数","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:18 method: com.luosi.cases.RechargeCase.testRecharge(RechargeCase.java:20) - [ INFO ]----*******************充值测试********************
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":2,"msg":"余额必须大于0并且小于或者等于500000","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:18 method: com.luosi.cases.RechargeCase.testRecharge(RechargeCase.java:20) - [ INFO ]----*******************充值测试********************
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:18 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":2,"msg":"余额必须大于0并且小于或者等于500000","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:18 method: com.luosi.cases.RechargeCase.testRecharge(RechargeCase.java:20) - [ INFO ]----*******************充值测试********************
+2020-01-28 21:25:19 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:19 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:19 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:19 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":2,"msg":"数字格式化异常","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:19 method: com.luosi.cases.RechargeCase.testRecharge(RechargeCase.java:20) - [ INFO ]----*******************充值测试********************
+2020-01-28 21:25:19 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:19 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:19 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:19 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":0,"msg":"OK","data":{"id":910701,"leave_amount":6300.0,"mobile_phone":"13800852493","reg_name":"小柠檬","reg_time":"2020-01-28 21:25:17.0","type":1},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-01-28 21:25:19 method: com.luosi.cases.RechargeCase.testRecharge(RechargeCase.java:20) - [ INFO ]----*******************充值测试********************
+2020-01-28 21:25:20 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116) - [ INFO ]----Headers:[Server: nginx/1.4.2, Date: Tue, 28 Jan 2020 13:25:20 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-01-28 21:25:20 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117) - [ INFO ]----statusCode:200
+2020-01-28 21:25:20 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118) - [ INFO ]----body:{"code":0,"msg":"OK","data":{"id":910701,"leave_amount":11600.0,"mobile_phone":"13800852493","reg_name":"小柠檬","reg_time":"2020-01-28 21:25:17.0","type":1},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}

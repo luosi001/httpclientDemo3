@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [柠檬前程贷]">
+  <test name="用户模块(failed)">
+    <classes>
+      <class name="com.luosi.cases.LoginCase">
+        <methods>
+          <include name="finish"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.luosi.cases.LoginCase -->
+      <class name="com.luosi.cases.RechargeCase">
+        <methods>
+          <include name="testRecharge" invocation-numbers="0 3"/>
+        </methods>
+      </class> <!-- com.luosi.cases.RechargeCase -->
+    </classes>
+  </test> <!-- 用户模块(failed) -->
+</suite> <!-- Failed suite [柠檬前程贷] -->

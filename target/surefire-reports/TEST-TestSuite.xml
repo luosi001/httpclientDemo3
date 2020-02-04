@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.021" tests="17" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/luojinying1/eclipse/eclipse-workspace/httpclientDemo3/target/test-classes:/Users/luojinying1/eclipse/eclipse-workspace/httpclientDemo3/target/classes:/Library/MyWork/MavenRepo/repository/org/testng/testng/6.8.8/testng-6.8.8.jar:/Library/MyWork/MavenRepo/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Library/MyWork/MavenRepo/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Library/MyWork/MavenRepo/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Library/MyWork/MavenRepo/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Library/MyWork/MavenRepo/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Library/MyWork/MavenRepo/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Library/MyWork/MavenRepo/repository/com/alibaba/fastjson/1.2.58/fastjson-1.2.58.jar:/Library/MyWork/MavenRepo/repository/cn/afterturn/easypoi-base/4.0.0/easypoi-base-4.0.0.jar:/Library/MyWork/MavenRepo/repository/org/apache/poi/poi/4.0.0/poi-4.0.0.jar:/Library/MyWork/MavenRepo/repository/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/Library/MyWork/MavenRepo/repository/org/apache/poi/poi-ooxml/4.0.0/poi-ooxml-4.0.0.jar:/Library/MyWork/MavenRepo/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Library/MyWork/MavenRepo/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/Library/MyWork/MavenRepo/repository/org/apache/poi/poi-ooxml-schemas/4.0.0/poi-ooxml-schemas-4.0.0.jar:/Library/MyWork/MavenRepo/repository/org/apache/xmlbeans/xmlbeans/3.0.1/xmlbeans-3.0.1.jar:/Library/MyWork/MavenRepo/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Library/MyWork/MavenRepo/repository/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar:/Library/MyWork/MavenRepo/repository/ognl/ognl/3.2.6/ognl-3.2.6.jar:/Library/MyWork/MavenRepo/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/Library/MyWork/MavenRepo/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Library/MyWork/MavenRepo/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/Library/MyWork/MavenRepo/repository/cn/afterturn/easypoi-annotation/4.0.0/easypoi-annotation-4.0.0.jar:/Library/MyWork/MavenRepo/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar:/Library/MyWork/MavenRepo/repository/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.jar:/Library/MyWork/MavenRepo/repository/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar:/Library/MyWork/MavenRepo/repository/javax/el/javax.el-api/2.2.4/javax.el-api-2.2.4.jar:/Library/MyWork/MavenRepo/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar:/Library/MyWork/MavenRepo/repository/commons-dbutils/commons-dbutils/1.6/commons-dbutils-1.6.jar:/Library/MyWork/MavenRepo/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Library/MyWork/MavenRepo/repository/io/qameta/allure/allure-testng/2.6.0/allure-testng-2.6.0.jar:/Library/MyWork/MavenRepo/repository/io/qameta/allure/allure-descriptions-javadoc/2.6.0/allure-descriptions-javadoc-2.6.0.jar:/Library/MyWork/MavenRepo/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Library/MyWork/MavenRepo/repository/io/qameta/allure/allure-java-commons/2.6.0/allure-java-commons-2.6.0.jar:/Library/MyWork/MavenRepo/repository/io/qameta/allure/allure2-model-api/1.0-BETA6/allure2-model-api-1.0-BETA6.jar:/Library/MyWork/MavenRepo/repository/io/qameta/allure/allure2-model-pojo/1.0-BETA6/allure2-model-pojo-1.0-BETA6.jar:/Library/MyWork/MavenRepo/repository/org/apache/tika/tika-core/1.14/tika-core-1.14.jar:/Library/MyWork/MavenRepo/repository/io/qameta/allure/allure2-model-jackson/1.0-BETA6/allure2-model-jackson-1.0-BETA6.jar:/Library/MyWork/MavenRepo/repository/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar:/Library/MyWork/MavenRepo/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar:/Library/MyWork/MavenRepo/repository/com/fasterxml/jackson/core/jackson-core/2.7.0/jackson-core-2.7.0.jar:/Library/MyWork/MavenRepo/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.0/jackson-module-jaxb-annotations-2.7.0.jar:/Library/MyWork/MavenRepo/repository/org/aspectj/aspectjrt/1.8.10/aspectjrt-1.8.10.jar:/Library/MyWork/MavenRepo/repository/org/jooq/joor/0.9.6/joor-0.9.6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/luojinying1/eclipse/eclipse-workspace/httpclientDemo3/target/surefire/surefirebooter1829528859929506107.jar /Users/luojinying1/eclipse/eclipse-workspace/httpclientDemo3/target/surefire 2020-02-01T21-54-56_563-jvmRun1 surefire680523352368074936tmp surefire_0158882038553419200tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/luojinying1/eclipse/eclipse-workspace/httpclientDemo3/target/test-classes:/Users/luojinying1/eclipse/eclipse-workspace/httpclientDemo3/target/classes:/Library/MyWork/MavenRepo/repository/org/testng/testng/6.8.8/testng-6.8.8.jar:/Library/MyWork/MavenRepo/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Library/MyWork/MavenRepo/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Library/MyWork/MavenRepo/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Library/MyWork/MavenRepo/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Library/MyWork/MavenRepo/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Library/MyWork/MavenRepo/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Library/MyWork/MavenRepo/repository/com/alibaba/fastjson/1.2.58/fastjson-1.2.58.jar:/Library/MyWork/MavenRepo/repository/cn/afterturn/easypoi-base/4.0.0/easypoi-base-4.0.0.jar:/Library/MyWork/MavenRepo/repository/org/apache/poi/poi/4.0.0/poi-4.0.0.jar:/Library/MyWork/MavenRepo/repository/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/Library/MyWork/MavenRepo/repository/org/apache/poi/poi-ooxml/4.0.0/poi-ooxml-4.0.0.jar:/Library/MyWork/MavenRepo/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Library/MyWork/MavenRepo/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/Library/MyWork/MavenRepo/repository/org/apache/poi/poi-ooxml-schemas/4.0.0/poi-ooxml-schemas-4.0.0.jar:/Library/MyWork/MavenRepo/repository/org/apache/xmlbeans/xmlbeans/3.0.1/xmlbeans-3.0.1.jar:/Library/MyWork/MavenRepo/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Library/MyWork/MavenRepo/repository/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.jar:/Library/MyWork/MavenRepo/repository/ognl/ognl/3.2.6/ognl-3.2.6.jar:/Library/MyWork/MavenRepo/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/Library/MyWork/MavenRepo/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Library/MyWork/MavenRepo/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/Library/MyWork/MavenRepo/repository/cn/afterturn/easypoi-annotation/4.0.0/easypoi-annotation-4.0.0.jar:/Library/MyWork/MavenRepo/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar:/Library/MyWork/MavenRepo/repository/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final.jar:/Library/MyWork/MavenRepo/repository/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar:/Library/MyWork/MavenRepo/repository/javax/el/javax.el-api/2.2.4/javax.el-api-2.2.4.jar:/Library/MyWork/MavenRepo/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar:/Library/MyWork/MavenRepo/repository/commons-dbutils/commons-dbutils/1.6/commons-dbutils-1.6.jar:/Library/MyWork/MavenRepo/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Library/MyWork/MavenRepo/repository/io/qameta/allure/allure-testng/2.6.0/allure-testng-2.6.0.jar:/Library/MyWork/MavenRepo/repository/io/qameta/allure/allure-descriptions-javadoc/2.6.0/allure-descriptions-javadoc-2.6.0.jar:/Library/MyWork/MavenRepo/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Library/MyWork/MavenRepo/repository/io/qameta/allure/allure-java-commons/2.6.0/allure-java-commons-2.6.0.jar:/Library/MyWork/MavenRepo/repository/io/qameta/allure/allure2-model-api/1.0-BETA6/allure2-model-api-1.0-BETA6.jar:/Library/MyWork/MavenRepo/repository/io/qameta/allure/allure2-model-pojo/1.0-BETA6/allure2-model-pojo-1.0-BETA6.jar:/Library/MyWork/MavenRepo/repository/org/apache/tika/tika-core/1.14/tika-core-1.14.jar:/Library/MyWork/MavenRepo/repository/io/qameta/allure/allure2-model-jackson/1.0-BETA6/allure2-model-jackson-1.0-BETA6.jar:/Library/MyWork/MavenRepo/repository/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar:/Library/MyWork/MavenRepo/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar:/Library/MyWork/MavenRepo/repository/com/fasterxml/jackson/core/jackson-core/2.7.0/jackson-core-2.7.0.jar:/Library/MyWork/MavenRepo/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.0/jackson-module-jaxb-annotations-2.7.0.jar:/Library/MyWork/MavenRepo/repository/org/aspectj/aspectjrt/1.8.10/aspectjrt-1.8.10.jar:/Library/MyWork/MavenRepo/repository/org/jooq/joor/0.9.6/joor-0.9.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="/Users/luojinying1/eclipse/eclipse-workspace/httpclientDemo3/target/allure-results"/>
+    <property name="user.home" value="/Users/luojinying1"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/luojinying1/eclipse/eclipse-workspace/httpclientDemo3"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/luojinying1/eclipse/eclipse-workspace/httpclientDemo3/target/surefire/surefirebooter1829528859929506107.jar:/Library/MyWork/MavenRepo/repository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="user.name" value="luojinying1"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.2"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Library/MyWork/MavenRepo/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/r6/2xy0hj_j09gdqf0j5b76vkyw0000gp/T/"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="user.dir" value="/Users/luojinying1/eclipse/eclipse-workspace/httpclientDemo3"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/luojinying1/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="java.ext.dirs" value="/Users/luojinying1/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testRegister" classname="com.luosi.cases.RegisterCase" time="0.864"/>
+  <testcase name="testRegister" classname="com.luosi.cases.RegisterCase" time="0.103"/>
+  <testcase name="testRegister" classname="com.luosi.cases.RegisterCase" time="0.096"/>
+  <testcase name="testRegister" classname="com.luosi.cases.RegisterCase" time="0.097"/>
+  <testcase name="testRegister" classname="com.luosi.cases.RegisterCase" time="1.551"/>
+  <testcase name="testRegister" classname="com.luosi.cases.RegisterCase" time="0.147"/>
+  <testcase name="testLogin" classname="com.luosi.cases.LoginCase" time="0.104"/>
+  <testcase name="testLogin" classname="com.luosi.cases.LoginCase" time="0.119"/>
+  <testcase name="testLogin" classname="com.luosi.cases.LoginCase" time="0.145"/>
+  <testcase name="testLogin" classname="com.luosi.cases.LoginCase" time="0.148"/>
+  <testcase name="testLogin" classname="com.luosi.cases.LoginCase" time="0.122"/>
+  <testcase name="testRecharge" classname="com.luosi.cases.RechargeCase" time="0.101">
+    <failure message="expected [Pass] but found [Fail]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Pass] but found [Fail]
+	at com.luosi.cases.RechargeCase.testRecharge(RechargeCase.java:50)
+</failure>
+    <system-out><![CDATA[[INFO] 2020-02-01 21:55:04 method: com.luosi.cases.RechargeCase.testRecharge(RechargeCase.java:21)----*******************充值测试********************
+token:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjkxMTcyNiwiZXhwIjoxNTgwNTY1NjA0fQ.sJN2vlzw4D78EsoCvPn0IzL89gYxWAk_ctu6mVNayl_fZCnVbqh7BpWLt6ZI8zUu8vsCe8Kus4U_N-4JDC3wTA
+[INFO] 2020-02-01 21:55:04 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116)----Headers:[Server: nginx/1.4.2, Date: Sat, 01 Feb 2020 13:55:04 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[INFO] 2020-02-01 21:55:04 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117)----statusCode:200
+[INFO] 2020-02-01 21:55:04 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118)----body:{"code":1007,"msg":"无权限访问，请检查参数","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+responseBody:{"code":1007,"msg":"无权限访问，请检查参数","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+响应断言结果：false
+]]></system-out>
+  </testcase>
+  <testcase name="testRecharge" classname="com.luosi.cases.RechargeCase" time="0.099"/>
+  <testcase name="testRecharge" classname="com.luosi.cases.RechargeCase" time="0.097"/>
+  <testcase name="testRecharge" classname="com.luosi.cases.RechargeCase" time="0.098">
+    <failure message="expected [Pass] but found [Fail]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Pass] but found [Fail]
+	at com.luosi.cases.RechargeCase.testRecharge(RechargeCase.java:50)
+</failure>
+    <system-out><![CDATA[[INFO] 2020-02-01 21:55:04 method: com.luosi.cases.RechargeCase.testRecharge(RechargeCase.java:21)----*******************充值测试********************
+token:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjkxMTcyNiwiZXhwIjoxNTgwNTY1NjA0fQ.sJN2vlzw4D78EsoCvPn0IzL89gYxWAk_ctu6mVNayl_fZCnVbqh7BpWLt6ZI8zUu8vsCe8Kus4U_N-4JDC3wTA
+[INFO] 2020-02-01 21:55:04 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:116)----Headers:[Server: nginx/1.4.2, Date: Sat, 01 Feb 2020 13:55:04 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[INFO] 2020-02-01 21:55:04 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:117)----statusCode:200
+[INFO] 2020-02-01 21:55:04 method: com.luosi.utils.HttpUtils.testPostJson(HttpUtils.java:118)----body:{"code":2,"msg":"数字格式化异常","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+responseBody:{"code":2,"msg":"数字格式化异常","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+响应断言结果：false
+]]></system-out>
+  </testcase>
+  <testcase name="testRecharge" classname="com.luosi.cases.RechargeCase" time="0.888"/>
+  <testcase name="testRecharge" classname="com.luosi.cases.RechargeCase" time="0.877"/>
+</testsuite>
